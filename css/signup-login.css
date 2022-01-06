@@ -1,0 +1,100 @@
+*{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: serif;
+
+}
+#signupbody{
+    background-image: linear-gradient(to right ,black ,white);
+    font-size: 20px;
+    font-weight: 600;    
+}.signup_box{
+    width: 400px;
+    height: 440px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 100px;
+    left: 473px;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.8);
+
+}#usericon{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left: 159px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 80px;
+    transition: 0.8s;
+
+}
+#usericon:hover{
+    background-color: rgba(11, 216, 24);
+
+}.signuplogo>#signuplogo{
+   font-size: 60px;
+   position: absolute;
+   top: 30px;
+   left: 11%;
+}#underlogoline{
+    width: 360px;
+    border-style: solid;
+    height: 6px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.inputs{
+    width: 360px;
+    height: 260px;
+    position: relative;
+    left: 20px;
+}
+.inp{
+    width: 240px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    position: absolute;
+    left:  110px;
+
+}
+
+.inputs>p{
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 14px 0;
+}
+.signupbtn{
+    margin: 20px 0 0 10px;
+    width: 160px;
+    height: 50px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    transition: 0.8s;
+    
+}
+.signupbtn:hover{
+    background-color: rgb(45, 218, 33);
+}
+.inputs>p>a{
+    text-decoration: none;
+    color: red;
+}
+#login_btn{
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    margin: -5px 0;
+    transition: 0.8s;
+}
+#login_btn:hover{
+    background-color: rgb(43, 230, 29);
+}

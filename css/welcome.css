@@ -1,0 +1,108 @@
+body{
+
+    background-image: url(../images/backgroundimage.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 100% auto;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+    margin: 0;
+    
+}
+.menu{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.6);
+
+}
+.btns{
+    float:right;
+    margin: 0 30px  ;
+}
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
+    margin: 6px 20px 2px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    transition: 0.7s;
+}
+
+#logo{
+    cursor: pointer;
+    margin:6px 0 0 80px ;
+    transition: 0.7s;
+    font-size: 45px;
+}
+.btn:hover{
+    background-color: rgb(17, 255, 0);
+}
+#logo:hover{
+    color: rgb(17, 255, 0);
+}
+.yazi marquee{
+    width: 1010px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 180px;    
+    transition: 0.7s;
+}
+.yazi marquee:hover{
+    color:rgb(17, 255, 0);
+}
+#tanim{
+    width: 280px;
+    margin: 60px 0 0 100px;
+    color: rgb(0, 0, 0);
+
+}
+.text{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(0, 0, 0,0.6);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px rgb(200, 204, 200);
+    font-family: serif;
+    margin: 20px 0 0 100px;
+    padding: 0 0 0 10px;
+}
+#uptest{
+    margin: 0 0 0 33%;
+    letter-spacing:4px;
+    font-weight: bold;
+
+    font-size: 30px;
+}
+#sp{
+    text-decoration: rgb(33, 240, 33) underline;
+}
+.fot{
+    width: 100%;
+    color: white;
+    background-color: rgb(0,0,0,0.6);
+    height: 60px;
+    position: absolute;
+    bottom: 0%;
+}
+
+.fot>p{
+    position: relative;
+    transition: 0.7s;
+    bottom: 15px;
+
+}
+.fot>p:hover{
+    color:rgb(17, 255, 0);
+}
+.social_media i{
+    font-size: 40px;
+    position: absolute;
+    bottom: 9px;
+    right: 20px;
+}
